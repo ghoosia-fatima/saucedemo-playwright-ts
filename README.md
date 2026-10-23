@@ -32,4 +32,11 @@ Other commands: `npm run test:headed`, `npm run test:ui`, `npm run typecheck`.
 
 ## Test status
 
-Not recorded yet. Update this section after your first full local run.
+Last local run (Chromium, macOS): 8 tests, 8 passed, 0 failed (about 9 seconds).
+
+| Area | Tests passing | Still to write |
+|---|---|---|
+| Login | 2 | invalid credentials, empty fields, logout, route protection |
+| Inventory | 2 | sort high to low, sort by name, product details |
+| Cart | 2 | multiple items, remove, continue shopping |
+| Checkout | 2 | last name, postal code, totals, cancel |
